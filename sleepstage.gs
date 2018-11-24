@@ -434,7 +434,7 @@ function saveAsSpreadsheet(){
       // var saveDate = Utilities.formatDate(dateString, 'America/Los_Angeles',"yyyyMMdd");  
   
   var saveDate = dateString;  
-  DriveApp.getFileById(sheet.getId()).makeCopy("Fitbit Intraday Sleep Stage"+saveDate, destFolder); 
+  DriveApp.getFileById(sheet.getId()).makeCopy("Fitbit Intraday Sleep Stage "+saveDate, destFolder); 
 
   } // end saveAsSpreadsheet
 
